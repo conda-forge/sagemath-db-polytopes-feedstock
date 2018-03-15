@@ -1,4 +1,4 @@
-{% set version = "20120220" %}
+{% set version = "20170220" %}
 {% set name = "sagemath-db-polytopes" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.bz2
   url: http://files.sagemath.org/spkg/upstream/polytopes_db/polytopes_db-{{ version }}.tar.bz2
-  sha256: a88d4a4ff1ccb5bb82daf18f8e80c21391a2977ff27855a5f1a3005e8bcbba40
+  sha256: cb788bdfca6e00864ec0bfa67932a68ae68bfeb9c527a91be90ad218026a0ce0
 
 build:
   number: 0
@@ -26,3 +26,4 @@ about:
 extra:
   recipe-maintainers:
     - isuruf
+    - saraedum
